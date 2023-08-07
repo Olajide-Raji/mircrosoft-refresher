@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    display:flex;
+    margin:0 5% 0 5%;
+    padding: 1% 0 0 0;
+    font-size: 12px;
+    font-weight: 18px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.logo img {
+    width: 120px;
+}
+.logo img:hover {
+    border-bottom:#fff;
+}
+
+.left-menu {
+    display:flex;
+    gap: 30px;
+}
+
+.right-menu {
+    display:flex;
+    margin-left: auto;
+    gap:30px;
+}
+
+.landing-page {
+    padding-top: 50px;
+    width:100%;
+    height:450px;
+    background-image: url("../logo3.webp");
+    margin-top: 20px;
+}
+
+.landing-text {
+    width:35%;
+    margin-left: 5%;
+    padding-top: 100px;
+}
+
+.landing-text h5{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.landing-text p{
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.landing-text a{
+    padding: 10px 12px 10px 12px;
+    background-color:blue;
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.landing-text a:hover {
+    background-color: rgb(146, 146, 248);
+}
+
+.space {
+    height: 50px;
+}
+
+.features {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.features-items {
+    width: 300px;
+    margin-bottom: 20s;
+}
+
+.features-items p {
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.features-links a{
+    line-height: 20px;
+    color:#0067B8;
+    font-weight:500px;
+}
+
+.features-links a:hover {
+    border-bottom: 2px solid #0067B8;
+}
+
+.landing-two {
+    justify-content: center;
+    height: 500px;
+    background-image: url("/img0.webp");
+    margin:20px 0px 0px 0px;
+}
+.landing-two-text {
+    width:35%;
+    margin-left: 5%;
+    padding-top: 150px;
+}
+
+.landing-two-text h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.landing-two-text p{
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.landing-two-text a{
+    padding: 10px 12px 10px 12px;
+    background-color:blue;
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.landing-two-text a:hover {
+    background-color: rgb(146, 146, 248);
+}
+
+.for-business h2 {
+    margin-left: 20px;
+}
+
+.features-two {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.features-two-items {
+    width: 300px;
+    margin-bottom: 20s;
+}
+
+.features-two-items p {
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.features-two-links a{
+    line-height: 20px;
+    color:#0067B8;
+    font-weight:500px;
+}
+
+.features-two-links a:hover {
+    border-bottom: 2px solid #0067B8;
+}
+
+footer {
+    width:100%;
+    height: 450px;
+    background-color: #f2f2f2;
+}
+
+.menu {
+    margin: 30px 1% 0px 5%;
+    line-height: 30px;
+}
+.menu h5 {
+    font-size: medium;
+}
+.menu a {
+    color:black;
+}
+
+@keyframes mymove{
+    from {background-color:red;}
+    to {background-color:blue;}
+}
